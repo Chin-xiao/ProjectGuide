@@ -295,4 +295,84 @@
   .fa-brands {
     font-size: 2rem;
   }
+video{
+  margin: 4rem 2rem;
+}
 
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .grid-1x2 {
+    grid-template-columns: 1fr;
+  }
+
+  .main-mt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .btn-down > nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-mt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .list-ins > img {
+    width: 100%;
+  }
+
+  .article-choose {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card-artical {
+    width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1, h2, h3, h4, h5 {
+    font-size: 1.5rem;
+  }
+
+  .btn-down > .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-page nav.navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dropdown-list {
+    position: static;
+  }
+
+  .doc-func {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
